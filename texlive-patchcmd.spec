@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/patchcmd
+# catalog-date 2007-01-12 20:52:49 +0100
+# catalog-license pd
+# catalog-version 1.03
 Name:		texlive-patchcmd
 Version:	1.03
 Release:	1
@@ -44,6 +50,7 @@ defined with \DeclareRobustCommand.
 #- source
 %doc %{_texmfdistdir}/source/latex/patchcmd/patchcmd.dtx
 %doc %{_texmfdistdir}/source/latex/patchcmd/patchcmd.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ defined with \DeclareRobustCommand.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
