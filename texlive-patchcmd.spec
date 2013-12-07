@@ -6,7 +6,7 @@
 # catalog-version 1.03
 Name:		texlive-patchcmd
 Version:	1.03
-Release:	5
+Release:	6
 Summary:	Change the definition of an existing command
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/patchcmd
