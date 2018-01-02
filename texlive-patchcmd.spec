@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/patchcmd
-# catalog-date 2007-01-12 20:52:49 +0100
-# catalog-license pd
-# catalog-version 1.03
 Name:		texlive-patchcmd
-Version:	1.03
-Release:	10
+Version:	1.05
+Release:	1
 Summary:	Change the definition of an existing command
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/patchcmd
@@ -36,11 +30,10 @@ defined with \DeclareRobustCommand.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/patchcmd/patchcmd.sty
-%doc %{_texmfdistdir}/doc/latex/patchcmd/patchcmd.pdf
+%{_texmfdistdir}/tex/latex/patchcmd
+%doc %{_texmfdistdir}/doc/latex/patchcmd
 #- source
-%doc %{_texmfdistdir}/source/latex/patchcmd/patchcmd.dtx
-%doc %{_texmfdistdir}/source/latex/patchcmd/patchcmd.ins
+%doc %{_texmfdistdir}/source/latex/patchcmd
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,17 +44,3 @@ defined with \DeclareRobustCommand.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.03-2
-+ Revision: 754703
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.03-1
-+ Revision: 719203
-- texlive-patchcmd
-- texlive-patchcmd
-- texlive-patchcmd
-- texlive-patchcmd
-
