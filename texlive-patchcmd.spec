@@ -1,6 +1,6 @@
 Name:		texlive-patchcmd
 Version:	1.05
-Release:	2
+Release:	3
 Summary:	Change the definition of an existing command
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/patchcmd
