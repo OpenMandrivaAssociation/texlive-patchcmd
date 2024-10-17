@@ -3,7 +3,7 @@ Version:	41379
 Release:	2
 Summary:	Change the definition of an existing command
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/patchcmd
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/patchcmd
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/patchcmd.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/patchcmd.doc.r%{version}.tar.xz
